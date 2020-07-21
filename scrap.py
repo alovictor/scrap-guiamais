@@ -27,7 +27,7 @@ sleep(2.5)
 c.search(tipo)
 sleep(2.5)
 
-while count == 1:
+while True:
     links = c.get_links()
     current_url = c.current_url()
 
